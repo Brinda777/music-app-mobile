@@ -40,15 +40,13 @@ class _LoginViewState extends ConsumerState<LoginView> {
               Container(
                 alignment: Alignment.centerLeft,
                 padding: const EdgeInsets.only(left: 30, top: 20),
-                child:
-                const Text(
+                child: const Text(
                   // 'Welcome to Sangeet\nPlease sign in to continue',
                   'Please Sign In to Continue',
                   style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    color: ThemeConstant.neutralColor
-                  ),
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: ThemeConstant.neutralColor),
                 ),
               ),
               Padding(
@@ -66,9 +64,7 @@ class _LoginViewState extends ConsumerState<LoginView> {
                           return null;
                         },
                         keyboardType: TextInputType.text,
-                        style: const TextStyle(
-                          color: Colors.white
-                        ),
+                        style: const TextStyle(color: Colors.white),
                         decoration: const InputDecoration(
                           labelText: 'Email',
                           hintText: "Type in your email",
@@ -85,16 +81,17 @@ class _LoginViewState extends ConsumerState<LoginView> {
                         },
                         keyboardType: TextInputType.text,
                         obscureText: _isObscure,
-                        style: const TextStyle(
-                            color: Colors.white
-                        ),
+                        style: const TextStyle(color: Colors.white),
                         decoration: InputDecoration(
                           labelText: 'Password',
                           hintText: "Type in your password",
                           suffixIcon: IconButton(
-                            icon: Icon(_isObscure
-                                ? Icons.visibility
-                                : Icons.visibility_off, color: Colors.white,),
+                            icon: Icon(
+                              _isObscure
+                                  ? Icons.visibility
+                                  : Icons.visibility_off,
+                              color: Colors.white,
+                            ),
                             onPressed: () {
                               setState(() {
                                 _isObscure = !_isObscure;
@@ -160,17 +157,18 @@ class _LoginViewState extends ConsumerState<LoginView> {
                             style: TextStyle(fontSize: 18, color: Colors.white),
                           ),
                           TextButton(
-                            onPressed: () {
-                              ref
-                                  .read(authViewModelProvider.notifier)
-                                  .openRegisterView();
-                            },
-                            child: const Text("Register",
-                              style: TextStyle(
-                                fontSize: 18,
-                                color: Color(0xFF337DC5),
-                              ),)
-                          ),
+                              onPressed: () {
+                                ref
+                                    .read(authViewModelProvider.notifier)
+                                    .openRegisterView();
+                              },
+                              child: const Text(
+                                "Register",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  color: Color(0xFF1DB954),
+                                ),
+                              )),
                         ],
                       )
                     ],

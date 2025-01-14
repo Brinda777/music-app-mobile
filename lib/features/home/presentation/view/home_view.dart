@@ -138,7 +138,7 @@ class _HomeViewState extends ConsumerState<HomeView> {
                     child: Row(
                       children: [
                         Text(
-                          '${_getGreeting()}, Bijaya',
+                          _getGreeting(),
                           style: const TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
@@ -207,34 +207,31 @@ class _HomeViewState extends ConsumerState<HomeView> {
             itemCount: artists.length,
             itemBuilder: (context, index) {
               final artist = artists[index];
-              return
-                GestureDetector(
-                  onTap: () {
-                    NavigateRoute.pushRoute(ArtistView(artist: artist));
-                  },
-                  child:Padding(
-                    padding: EdgeInsets.symmetric(
-                        horizontal: screenWidth * 0.02),
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(15.0),
-                      child: Image.network(
-                        ApiEndpoints.imageUrl + artist.imageUrl!,
-                        width: double.infinity,
-                        height: screenWidth * 0.4,
-                        fit: BoxFit.cover,
-                        errorBuilder: (context, error, stackTrace) {
-                          return Container(
-                            width: screenWidth * 0.4,
-                            height: screenWidth * 0.4,
-                            color: Colors.white,
-                            child: Image.asset('assets/images/default_image.png'),
-                          );
-                        },
-                      ),
+              return GestureDetector(
+                onTap: () {
+                  NavigateRoute.pushRoute(ArtistView(artist: artist));
+                },
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.02),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(15.0),
+                    child: Image.network(
+                      ApiEndpoints.imageUrl + artist.imageUrl!,
+                      width: double.infinity,
+                      height: screenWidth * 0.4,
+                      fit: BoxFit.cover,
+                      errorBuilder: (context, error, stackTrace) {
+                        return Container(
+                          width: screenWidth * 0.4,
+                          height: screenWidth * 0.4,
+                          color: Colors.white,
+                          child: Image.asset('assets/images/default_image.png'),
+                        );
+                      },
                     ),
-                  ) ,
-                )
-                ;
+                  ),
+                ),
+              );
             },
           ),
         ),
@@ -312,7 +309,7 @@ class _HomeViewState extends ConsumerState<HomeView> {
                   padding: const EdgeInsets.all(68.0),
                   child: state.isLoading
                       ? const CircularProgressIndicator(
-                      color: ThemeConstant.neutralColor)
+                          color: ThemeConstant.neutralColor)
                       : const SizedBox.shrink(),
                 );
               }

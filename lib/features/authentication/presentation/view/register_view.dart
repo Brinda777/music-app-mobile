@@ -51,10 +51,9 @@ class _RegisterViewState extends ConsumerState<RegisterView> {
                 child: const Text(
                   'Create Your Account',
                   style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    color: ThemeConstant.neutralColor
-                  ),
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: ThemeConstant.neutralColor),
                 ),
               ),
               Padding(
@@ -72,9 +71,7 @@ class _RegisterViewState extends ConsumerState<RegisterView> {
                           return null;
                         },
                         keyboardType: TextInputType.text,
-                        style: const TextStyle(
-                            color: Colors.white
-                        ),
+                        style: const TextStyle(color: Colors.white),
                         decoration: const InputDecoration(
                           labelText: 'First Name',
                           hintText: "Type in your first name",
@@ -90,9 +87,7 @@ class _RegisterViewState extends ConsumerState<RegisterView> {
                           return null;
                         },
                         keyboardType: TextInputType.text,
-                        style: const TextStyle(
-                            color: Colors.white
-                        ),
+                        style: const TextStyle(color: Colors.white),
                         decoration: const InputDecoration(
                           labelText: 'Last Name',
                           hintText: "Type in your last name",
@@ -108,9 +103,7 @@ class _RegisterViewState extends ConsumerState<RegisterView> {
                           return null;
                         },
                         keyboardType: TextInputType.text,
-                        style: const TextStyle(
-                            color: Colors.white
-                        ),
+                        style: const TextStyle(color: Colors.white),
                         decoration: const InputDecoration(
                           labelText: 'Email',
                           hintText: "Type in your email",
@@ -127,16 +120,17 @@ class _RegisterViewState extends ConsumerState<RegisterView> {
                         },
                         keyboardType: TextInputType.text,
                         obscureText: _isObscure,
-                        style: const TextStyle(
-                            color: Colors.white
-                        ),
+                        style: const TextStyle(color: Colors.white),
                         decoration: InputDecoration(
                           labelText: 'Password',
                           hintText: "Type in your password",
                           suffixIcon: IconButton(
-                            icon: Icon(_isObscure
-                                ? Icons.visibility
-                                : Icons.visibility_off, color: Colors.white,),
+                            icon: Icon(
+                              _isObscure
+                                  ? Icons.visibility
+                                  : Icons.visibility_off,
+                              color: Colors.white,
+                            ),
                             onPressed: () {
                               setState(() {
                                 _isObscure = !_isObscure;
@@ -165,7 +159,6 @@ class _RegisterViewState extends ConsumerState<RegisterView> {
                                   .register(user);
                             }
                             // showMySnackBar(message: "Successfully registered");
-
                           },
                           child: const Text(
                             'Register',
@@ -203,7 +196,7 @@ class _RegisterViewState extends ConsumerState<RegisterView> {
                               "Login",
                               style: TextStyle(
                                 fontSize: 18,
-                                color: Color(0xFF337DC5),
+                                color: Color(0xFF1DB954),
                               ),
                             ),
                           ),

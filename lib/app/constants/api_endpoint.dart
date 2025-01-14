@@ -3,13 +3,13 @@ class ApiEndpoints {
 
   static const Duration connectionTimeout = Duration(seconds: 1000);
   static const Duration receiveTimeout = Duration(seconds: 1000);
-  static const String baseUrl = "http://192.168.1.9:8484/api/";
+  static const String baseUrl = "http://192.168.1.8:8484/api/";
   //static const String baseUrl = "http://10.0.0.2:3000/api/";
 
   // ====================== Auth Routes ======================
   static const String login = "auth/login";
   static const String register = "auth/register";
-  static const String imageUrl = "http://192.168.1.9:8484";
+  static const String imageUrl = "http://192.168.1.8:8484";
 
   // ====================== Genre Routes ======================
   static const String getGenres = 'genre';

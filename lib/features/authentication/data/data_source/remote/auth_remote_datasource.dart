@@ -57,15 +57,15 @@ class AuthRemoteDataSource {
 
   // Upload image using multipart
   Future<Either<Failure, String>> uploadProfilePicture(
-      File image,
-      ) async {
+    File image,
+  ) async {
     try {
       // Get the token from shared prefs
       String? token;
       var data = await authSharedPrefs.getAuthToken();
       data.fold(
-            (l) => token = null,
-            (r) => token = r!,
+        (l) => token = null,
+        (r) => token = r!,
       );
       // Extract name from path
       // c:/user/username/pictures/image.png
@@ -189,7 +189,7 @@ class AuthRemoteDataSource {
     try {
       await authSharedPrefs.getAuthToken();
       return const Right(true);
-    } catch(e) {
+    } catch (e) {
       return Left(
         Failure(
           error: 'Unable to logout',

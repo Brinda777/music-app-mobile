@@ -39,7 +39,8 @@ class _ProfileViewState extends ConsumerState<ProfileView> {
           children: [
             SingleChildScrollView(
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
                 child: Container(
                   decoration: BoxDecoration(
                     color: Colors.black,
@@ -73,9 +74,13 @@ class _ProfileViewState extends ConsumerState<ProfileView> {
                                     CircleAvatar(
                                       radius: 80,
                                       backgroundColor: Colors.grey[900],
-                                      backgroundImage: authEntity.imageUrl != null
-                                          ? NetworkImage(ApiEndpoints.imageUrl + authEntity.imageUrl!)
-                                          : const AssetImage('assets/images/default_image.png') as ImageProvider,
+                                      backgroundImage: authEntity.imageUrl !=
+                                              null
+                                          ? NetworkImage(ApiEndpoints.imageUrl +
+                                              authEntity.imageUrl!)
+                                          : const AssetImage(
+                                                  'assets/images/default_image.png')
+                                              as ImageProvider,
                                     ),
                                     if (authEntity.imageUrl == null)
                                       const CircularProgressIndicator(
@@ -86,23 +91,29 @@ class _ProfileViewState extends ConsumerState<ProfileView> {
                               ),
                               const SizedBox(height: 20),
                               Text(
-                                'Name: ${authEntity.firstName ?? 'Bijaya'} ${authEntity.lastName ?? 'Majhi'}',
-                                style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
+                                'Name: ${authEntity.firstName ?? 'Brinda'} ${authEntity.lastName ?? 'Bhattarai'}',
+                                style: const TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white),
                               ),
                               const SizedBox(height: 10),
                               Text(
                                 'Email: ${authEntity.email ?? 'N/A'}',
-                                style: const TextStyle(fontSize: 16, color: Colors.white70),
+                                style: const TextStyle(
+                                    fontSize: 16, color: Colors.white70),
                               ),
                               const SizedBox(height: 10),
                               Text(
                                 'Date of Birth: ${authEntity.dob ?? '1999/11/09'}',
-                                style: const TextStyle(fontSize: 16, color: Colors.white70),
+                                style: const TextStyle(
+                                    fontSize: 16, color: Colors.white70),
                               ),
                               const SizedBox(height: 10),
                               Text(
                                 'Gender: ${authEntity.gender ?? 'Male'}',
-                                style: const TextStyle(fontSize: 16, color: Colors.white70),
+                                style: const TextStyle(
+                                    fontSize: 16, color: Colors.white70),
                               ),
                             ],
                           ),
@@ -166,11 +177,13 @@ class _ProfileViewState extends ConsumerState<ProfileView> {
           borderRadius: BorderRadius.circular(12),
         ),
         child: ListTile(
-          contentPadding: const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
+          contentPadding:
+              const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
           leading: Icon(icon, color: color),
           title: Text(
             title,
-            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
+            style: const TextStyle(
+                fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
           ),
           trailing: const Icon(Icons.arrow_forward_ios, color: Colors.white70),
         ),
