@@ -14,6 +14,7 @@ A Flutter-based mobile application that provides **emotionally adaptive music re
 - **Database:** MongoDB  
 - **ML Integration:** Python-based recommendation model (API)  
 
+
 ## **🚀 Getting Started**  
 ### **1️⃣ Prerequisites**  
 - Install [Flutter](https://flutter.dev/docs/get-started/install)  
