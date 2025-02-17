@@ -30,7 +30,4 @@ A Flutter-based mobile application that provides **emotionally adaptive music re
 ## **🙌 Contributions**  
 Contributions are welcome! Feel free to fork the repo and submit pull requests.  
 
-## **📩 Contact**  
-
-
 💙 **Happy Listening!** 🎶
