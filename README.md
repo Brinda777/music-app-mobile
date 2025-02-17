@@ -24,7 +24,9 @@ A Flutter-based mobile application that provides **emotionally adaptive music re
 ```
 
 ### **3️⃣ Run the App**  
+
 ```sh
+
 flutter run  
 ```
 (Ensure a device or emulator is connected)  
