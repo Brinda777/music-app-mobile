@@ -1,16 +1,53 @@
-# sangeet
+### **README for Mobile App (Flutter) - Personalized Music Recommendation System**  
 
-A new Flutter project.
+# **🎵 Personalized Music Recommendation System**  
+A Flutter-based mobile application that provides **emotionally adaptive music recommendations** for young women aged **18–23 in Nepal**. The app uses **machine learning techniques** to analyze **audio features and user preferences**, ensuring highly personalized song suggestions.  
 
-## Getting Started
+## **📌 Features**  
+✅ **Personalized Recommendations** – Suggests songs based on mood, preferences, and listening history.  
+✅ **Content-Based Filtering** – Analyzes song characteristics like **tempo, energy, and danceability**.  
+✅ **Collaborative Filtering** – Recommends songs based on **similar users' preferences**.  
+✅ **User-Friendly UI** – A simple and interactive design for a seamless experience.  
+✅ **Secure & Ethical** – Respects **user privacy** and ensures fair recommendations.  
 
-This project is a starting point for a Flutter application.
+## **🛠️ Tech Stack**  
+- **Frontend:** Flutter (Dart)  
+- **Backend:** Node.js (Express.js)  
+- **Database:** MongoDB  
+- **State Management:** Provider  
+- **ML Integration:** Python-based recommendation model (API)  
 
-A few resources to get you started if this is your first Flutter project:
+## **🚀 Getting Started**  
+### **1️⃣ Prerequisites**  
+- Install [Flutter](https://flutter.dev/docs/get-started/install)  
+- Install [Dart](https://dart.dev/get-dart)  
+- Set up a [Firebase Project](https://firebase.google.com/) (if needed for authentication/storage)  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### **2️⃣ Installation**  
+```sh
+git clone https://github.com/yourusername/music-recommendation-app.git  
+cd music-recommendation-app  
+flutter pub get  
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### **3️⃣ Run the App**  
+```sh
+flutter run  
+```
+(Ensure a device or emulator is connected)  
+
+## **📸 Screenshots**  
+📷 *[Add relevant screenshots here]*  
+
+## **🔍 Future Enhancements**  
+- Implement **real-time feedback system** to improve recommendations.  
+- Add **multi-language support** for a broader user base.  
+- Improve **AI model accuracy** using deep learning techniques.  
+
+## **🙌 Contributions**  
+Contributions are welcome! Feel free to fork the repo and submit pull requests.  
+
+## **📩 Contact**  
+For any queries, reach out via [your email/contact info].  
+
+💙 **Happy Listening!** 🎶
