@@ -24,3 +24,5 @@ A Flutter-based mobile application that provides **emotionally adaptive music re
 - Improve **AI model accuracy** using deep learning techniques.  
 
 💙 **Happy Listening!** 🎶
+
+
