@@ -20,7 +20,7 @@ A Flutter-based mobile application that provides **emotionally adaptive music re
 ### **1️⃣ Prerequisites**  
 - Install [Flutter](https://flutter.dev/docs/get-started/install)  
 - Install [Dart](https://dart.dev/get-dart)  
-- Set up a [Firebase Project](https://firebase.google.com/) (if needed for authentication/storage)  
+
 
 ### **2️⃣ Installation**  
 ```sh
