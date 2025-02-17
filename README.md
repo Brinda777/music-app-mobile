@@ -30,7 +30,7 @@ flutter run
 (Ensure a device or emulator is connected)  
 
 ## **📸 Screenshots**  
-📷 *[Add relevant 
+
 
 ## **🔍 Future Enhancements**  
 - Implement **real-time feedback system** to improve recommendations.  
