@@ -12,7 +12,6 @@ A Flutter-based mobile application that provides **emotionally adaptive music re
 - **Frontend:** Flutter (Dart)  
 - **Backend:** Node.js (Express.js)  
 - **Database:** MongoDB  
-- **State Management:** Provider  
 - **ML Integration:** Python-based recommendation model (API)  
 
 
