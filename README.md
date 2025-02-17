@@ -21,12 +21,6 @@ A Flutter-based mobile application that provides **emotionally adaptive music re
 - Install [Flutter](https://flutter.dev/docs/get-started/install)  
 - Install [Dart](https://dart.dev/get-dart)  
 
-
-### **2️⃣ Installation**  
-```sh
-git clone https://github.com/yourusername/music-recommendation-app.git  
-cd music-recommendation-app  
-flutter pub get  
 ```
 
 ### **3️⃣ Run the App**  
