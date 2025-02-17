@@ -16,6 +16,7 @@ A Flutter-based mobile application that provides **emotionally adaptive music re
 - **State Management:** Provider  
 - **ML Integration:** Python-based recommendation model (API)  
 
+
 ## **🚀 Getting Started**  
 ### **1️⃣ Prerequisites**  
 - Install [Flutter](https://flutter.dev/docs/get-started/install)  
