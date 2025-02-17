@@ -23,11 +23,6 @@ A Flutter-based mobile application that provides **emotionally adaptive music re
 
 ```
 
-(Ensure a device or emulator is connected)  
-
-## **📸 Screenshots**  
-
-
 ## **🔍 Future Enhancements**  
 - Implement **real-time feedback system** to improve recommendations.  
 - Add **multi-language support** for a broader user base.  
