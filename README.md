@@ -21,7 +21,6 @@ A Flutter-based mobile application that provides **emotionally adaptive music re
 - Install [Flutter](https://flutter.dev/docs/get-started/install)  
 - Install [Dart](https://dart.dev/get-dart)  
 
-
 ## **🔍 Future Enhancements**  
 - Implement **real-time feedback system** to improve recommendations.  
 - Add **multi-language support** for a broader user base.  
