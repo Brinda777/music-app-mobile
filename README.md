@@ -1,4 +1,3 @@
-
 # **🎵 Personalized Music Recommendation System**  
 A Flutter-based mobile application that provides **emotionally adaptive music recommendations** for young women aged **18–23 in Nepal**. The app uses **machine learning techniques** to analyze **audio features and user preferences**, ensuring highly personalized song suggestions.  
 
