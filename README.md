@@ -25,4 +25,3 @@ A Flutter-based mobile application that provides **emotionally adaptive music re
 
 💙 **Happy Listening!** 🎶
 
-
