@@ -3,7 +3,6 @@
 A Flutter-based mobile application that provides **emotionally adaptive music recommendations** for young women aged **18–23 in Nepal**. The app uses **machine learning techniques** to analyze **audio features and user preferences**, ensuring highly personalized song suggestions.  
 
 ## **📌 Features**  
-✅ **Personalized Recommendations** – Suggests songs based on mood, preferences, and listening history.  
 ✅ **Content-Based Filtering** – Analyzes song characteristics like **tempo, energy, and danceability**.  
 ✅ **Collaborative Filtering** – Recommends songs based on **similar users' preferences**.  
 ✅ **User-Friendly UI** – A simple and interactive design for a seamless experience.  
