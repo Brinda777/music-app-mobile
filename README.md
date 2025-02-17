@@ -26,7 +26,4 @@ A Flutter-based mobile application that provides **emotionally adaptive music re
 - Add **multi-language support** for a broader user base.  
 - Improve **AI model accuracy** using deep learning techniques.  
 
-## **🙌 Contributions**  
-Contributions are welcome! Feel free to fork the repo and submit pull requests.  
-
 💙 **Happy Listening!** 🎶
